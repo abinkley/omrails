@@ -2,9 +2,11 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 gem 'jquery-rails'
+gem 'devise'
 
 group :production do
 	gem 'pg'
+	gem 'rails_12factor'
 end
 
 group :development, :test do
